@@ -5,17 +5,14 @@
  */
 package colections;
 
-/**
- *
- * @author diogo.moreira
- */
-public class Colections {
+import javax.swing.JOptionPane;
 
-    /**
-     * @param args the command line arguments
-     */
+public class Colections {
     public static void main(String[] args) {
-        // TODO code application logic here
+    	String idade = JOptionPane.showInputDialog("Qual a sua idade? ");
+    	int valorIdade = Integer.parseInt(idade);
+    	System.out.print("Sua idade é " + valorIdade);
+    
     }
     
 }
